@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <fragment
+    <FrameLayout
         android:name="com.example.dicerollgame.guessFragment"
         android:id="@+id/flFragment"
         android:layout_width="match_parent"
@@ -59,6 +59,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/flFragment" />
+        app:layout_constraintTop_toBottomOf="@+id/flFragment"
+        app:layout_constraintVertical_bias="0.496" />
 
 </android.support.constraint.ConstraintLayout>
